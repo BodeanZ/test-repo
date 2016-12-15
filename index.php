@@ -1,6 +1,8 @@
 <?php
 session_start();
 echo 'something';
-while(true)
+while(true) {
+	echo 'one iteration';
 	break;
+}
 ?>
